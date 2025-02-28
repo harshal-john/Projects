@@ -71,7 +71,7 @@ public class Main {
 		Connection con = DriverManager.getConnection(url, user, pass);
 		Statement st = con.createStatement();
 		int rows = st.executeUpdate(query);
-		System.out.println("No of tables affected changes cHANGES :" + rows);		
+		System.out.println("No of tables affected changes cHANGES cv :" + rows);		
 		con.close();
 	}
 	
